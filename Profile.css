@@ -1,0 +1,182 @@
+#nav {
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal; 
+}
+.nav-title {
+    color: white;
+    padding-left: 20px;
+} 
+.nav-links {
+    list-style-type: none;
+    padding-right: 20px;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+.btn {
+    background-color: teal;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 25px;
+}
+.flex-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #302f2f;
+}
+.user-card {
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.card-body {
+    padding: 20px;
+}
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+.person {
+    display: flex;
+    align-items: center;
+}
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+.connections {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.connections img {
+    height: 50px;
+    padding: 5px;
+
+}
+.avatar, .connections img {
+    border-radius: 50%;
+    background-color: #fff;
+}
+.avatar-m {
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.icon-s {
+    height: 20px;
+    vertical-align: middle;
+    line-height: 20px;
+}
+a {
+    color: #3a81e6;
+}
+h4 {
+    background-color: #302f2f;
+    color: white;
+    overflow: hidden;
+    padding: 15px;
+    margin-left: 5px;
+}
+.education {
+    border: 2px solid #999;
+}
+.title-bar {
+    background-color: #302f2f;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+} 
+.nav-content, .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+}
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.left-side {
+    width: 50%;
+    margin-right: 30px;
+}
+.right-side {
+    width: 50%;
+}
+.your-connections, .your-requests {
+    border: 2px solid #999;
+    margin-top: 20px;
+}
+.view-more {
+    align-items: left;
+    border-top: 2px solid #999;
+    padding: 10px;
+}
+.date {
+    font-size: 14px;
+    margin-top: 5px;
+    color: grey;
+}
+.bootcamp {
+    font-size: 18px;
+}
+.skills {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.name-list {
+    padding-left: 5px;
+}
+.circle, .oval {
+    height: 30px;
+    background-color: grey;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.circle {
+    width: 30px;
+}
+.oval {
+    width: 45px;
+}
+.edu {
+    margin-left: 10px;
+}
